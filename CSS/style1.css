@@ -1,0 +1,239 @@
+.clasa1 
+{color:#d40909;
+font-size: large;
+font-family: Arial, sans-serif;
+}
+
+.p2
+{font-family: Arial, sans-serif;
+}
+
+.p2::before {
+content: "-";
+}
+
+.p2::after {
+  content: "-";
+}
+
+td {
+padding: 8px;
+text-align: left;
+}
+
+tr:nth-child(even){background-color: #cebbbb;}
+
+tr:hover {background-color: rgba(241, 238, 9, 0.493);}
+
+table th { text-align: center;  }
+
+table, th, td {
+border: 3px solid;
+color:#d40909;;
+width:400px;}
+
+
+h1 {
+border: 6px dotted #d40909;;
+}
+
+
+body {
+background-image: url("../Imagini/fundal.jpg");
+padding-right: 10px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+.img1 {
+padding: 10px;
+margin: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:600px;
+height:400px;
+}
+
+.img2 
+{    
+animation: fadeIn 5s;
+-webkit-animation: fadein 5s; 
+margin: 20px;
+border: 5px solid  #d40909;
+position:absolute;
+left:495px;
+bottom:240px;
+width:200px;
+height:150px;
+}
+
+@keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.font{ 
+font-size:25px;
+font-weight: bold;
+color:rgb(88, 99, 99);
+text-align: center; 
+}
+
+.center {
+margin-left: auto;
+margin-right: auto;
+}
+
+.font2{
+font-size:25px;
+color:rgb(241, 8, 8);
+text-align: left; }
+
+
+.fundal 
+{ background-color: red; }
+
+
+.topnav {
+overflow: hidden;
+padding-inline-start: 0;
+background-color: rgba(129, 126, 126, 0.589);
+display: flex;
+flex-direction: row;
+height: 100px;
+justify-self: center;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+list-style: none;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: rgb(194, 165, 170);
+color: white;
+}
+
+
+.gallery {
+margin: 10px;
+border: 5px solid rgb(117, 83, 83);
+float: left;
+width: 300px;
+height: 200px;
+}
+  
+.imag{
+width: 200%;
+height: auto;
+}
+  
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+.dropbtn {
+background-color: #ff000062;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+justify-self: center;
+display: flex;
+position: relative;
+
+}
+
+.dropdown {
+display: flex;
+position: relative;
+justify-self: right;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #d443a952;}
+
+
+.s1 
+{color:rgb(241, 8, 8); }
+
+.div1
+{display:flex;
+width:300px;
+height:200px;
+flex-direction:row;
+justify-content: flex-end;
+margin: auto;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: rgba(107, 107, 91, 0.698);}} 
+
+.divanimat {
+margin:20px;
+width: 100px;
+height: 100px;
+position:absolute;
+right:300px;
+bottom:273px;
+justify-content: flex-start; 
+background-color: red;
+animation-name: example;
+animation-duration: 6s;
+}
+
+
+.divanimat2 {
+margin:20px;
+width: 100px;
+height: 100px;
+position:absolute;
+left:273px;
+bottom:273px;
+background-color: red;
+animation-name: move1;
+animation-duration: 6s;
+}
+
+@keyframes move1 {
+  from {left: 0px;}
+  to {left: 300px;}
+}

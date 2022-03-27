@@ -1,0 +1,59 @@
+.heading
+{text-align:center;
+color: white;
+font-weight: bold;
+font-size:60px;
+font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("../Imagini/red.jpg");
+    background-repeat: no-repeat;
+}
+
+.paragraf1
+{color:white;
+text-align:left;
+font-size:20px;
+text-indent:50px;
+font-family: Arial, sans-serif;
+}
+
+.paragraf2
+{color:white;
+text-align:left;
+font-size:20px;
+text-indent:90px;
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+
+.img1
+{width:700px;
+height:500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 8px;
+border:10px solid rgb(116, 116, 165);
+padding:10px;}
+
+@media screen and (max-width: 600px) {
+    body {background-image: url("fundal-4.jpg"); 
+        background-repeat: no-repeat;   
+        background-attachment: fixed;
+        background-size: cover;}
+  
+    .paragraf1
+  {font-family: 'Times New Roman', Times, serif;
+   font-size:7vw;}
+
+   .paragraf2
+  {font-family: 'Times New Roman', Times, serif;
+    font-size:7vw;}
+   
+  .img1
+  {width:400px;
+   height:300px;} 
+}
